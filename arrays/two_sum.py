@@ -27,7 +27,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
-# Optimal: O(n), Space: O(n)
+# Time: O(n), Space: O(n)
 class Solution:
     """
     Rather than check if the sum of two values in the array are equal to the
